@@ -1,2 +1,27 @@
+# FastAPI core
 fastapi
-uvicorn
+uvicorn[standard]
+
+# Auth & Security
+# Password hashing
+passlib[bcrypt]
+
+# JWT creation & verification
+python-jose[cryptography]
+
+# ORM + Database (PostgreSQL preferred)
+# ORM to interact with DB
+sqlalchemy
+
+# Async driver for PostgreSQL (recommended with FastAPI)
+asyncpg
+
+# Environment Config
+# Load .env secrets (e.g. JWT secret, DB URL)
+python-dotenv
+
+# Pydantic v2 settings support
+pydantic-settings
+
+
+email-validator
